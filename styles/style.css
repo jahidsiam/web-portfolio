@@ -6,12 +6,25 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.bg-color{
+  background-color: #FFF8F3;
+}
+.section-title{
+  font-weight: 700;
+  font-size: 35px;
+}
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
 /* header */
 .header{
   background-image: url(../images/developer.png),url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
+
 nav{
     display: flex;
    align-items: center;
@@ -90,5 +103,107 @@ nav li{
 .photo{
   margin-top: 45px;
   width: 500px;
+}
+/* main styles */
+.main{
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.about-me{
+  text-align: center;
+  padding: 130px 150px;
+  border-radius: 10px;
+  margin-top: 130px;
+}
+.about-description{
+  background-color: #FFFFFF;
+}
+.section-items{
+  display: flex;
+  justify-content: space-around;
+}
+.about-item{
+  margin: 30px 0 0 0;
+  color: #757575;
+}
+.about-description{
+  font-weight: 700;
+  margin: 0px;
+  color: #474747;
+}
+/* skill section */
 
+.skills{
+  margin: 130px 0;
+}
+.skill-title{
+  text-align: center;
+}
+.item-center{
+  padding: 0px 145px;
+}
+.skill{
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.skill-card{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resume styles */
+.resume-title{
+  text-align: center;
+}
+.resume-description{
+  display: flex;
+  gap: 24px;
+  margin-top: 130px;
+}
+.coloum-title{
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+}
+.resume-coloum-title{
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 30px;
+  color: #474747;
+}
+.experience-title{
+  font-size: 20px;
+  color: #757575;
+}
+.experience-sub-title{
+  font-size: 16px;
+  color: #757575;
+}
+.resume-button{
+  text-align: center;
+  margin-top: 50px;
+}
+/* footer part */
+.footer{
+  display: flex;
+  gap: 100px;
+  background-color: #FFF8F3;
+  margin-top: 130px;
+  padding: 130px 200px;
+}
+.footer-coloum{
+  width: 50%;
+}
+.website, a {
+  margin-right: 24px;
+}
+form input[type="text"],[type="email"],textarea{
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
 }
